@@ -3,6 +3,7 @@
 import { projects } from "@/data/resume";
 import TerminalHeader from "./TerminalHeader";
 import ScrollReveal from "./ScrollReveal";
+import SkillIcon from "./SkillIcon";
 
 export default function Projects() {
   return (
@@ -32,8 +33,9 @@ export default function Projects() {
                   {project.tech.map((t) => (
                     <span
                       key={t}
-                      className="rounded bg-bg-tertiary px-2 py-0.5 text-xs text-terminal-cyan"
+                      className="flex items-center gap-1.5 rounded bg-bg-tertiary px-2 py-0.5 text-xs text-terminal-cyan"
                     >
+                      <SkillIcon skill={t} />
                       {t}
                     </span>
                   ))}

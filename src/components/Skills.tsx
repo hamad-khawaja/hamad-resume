@@ -3,6 +3,7 @@
 import { skills } from "@/data/resume";
 import TerminalHeader from "./TerminalHeader";
 import ScrollReveal from "./ScrollReveal";
+import SkillIcon from "./SkillIcon";
 
 export default function Skills() {
   return (
@@ -23,8 +24,9 @@ export default function Skills() {
                   {group.items.map((skill) => (
                     <span
                       key={skill}
-                      className="rounded border border-bg-tertiary bg-bg-primary px-3 py-1 font-mono text-xs text-text-primary transition-colors hover:border-terminal-green/30 hover:text-terminal-green"
+                      className="flex items-center gap-1.5 rounded border border-bg-tertiary bg-bg-primary px-3 py-1 font-mono text-xs text-text-primary transition-colors hover:border-terminal-green/30 hover:text-terminal-green"
                     >
+                      <SkillIcon skill={skill} />
                       {skill}
                     </span>
                   ))}

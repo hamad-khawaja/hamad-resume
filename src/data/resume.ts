@@ -172,7 +172,6 @@ export const experience: Experience[] = [
     location: "Remote",
     dates: "2015 – 2016",
     bullets: [
-      "Migrated legacy PHP application to the Laravel JavaScript framework",
       "Built backend multimedia tools using FFmpeg for live streaming astronomical events",
       "Developed tooling around live stream processing and event broadcasting infrastructure",
     ],
