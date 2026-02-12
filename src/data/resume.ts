@@ -131,7 +131,7 @@ export const experience: Experience[] = [
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Sr. Software Engineer",
     company: "Optum (UnitedHealth Group)",
     location: "Eden Prairie, MN",
     dates: "Jun 2019 – May 2021",
@@ -154,6 +154,37 @@ export const experience: Experience[] = [
       "Created dashboards and reporting tools using D3.js and Python for business analytics",
       "Participated in on-call rotation and incident response for production systems",
       "Received early promotion based on consistent delivery and technical initiative",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company: "ESPN",
+    location: "Bristol, CT",
+    dates: "Sep 2016 – Jan 2017",
+    bullets: [
+      "Developed scalable backend services and REST APIs for high-traffic sports applications",
+      "Worked on the college sports score bar, delivering real-time score updates to millions of viewers",
+    ],
+  },
+  {
+    title: "Junior Backend Engineer",
+    company: "Slooh",
+    location: "Remote",
+    dates: "2015 – 2016",
+    bullets: [
+      "Migrated legacy PHP application to the Laravel JavaScript framework",
+      "Built backend multimedia tools using FFmpeg for live streaming astronomical events",
+      "Developed tooling around live stream processing and event broadcasting infrastructure",
+    ],
+  },
+  {
+    title: "Freelance Web Developer",
+    company: "Freelancer.com",
+    location: "Remote",
+    dates: "2012 – 2016",
+    bullets: [
+      "Built and fixed websites for various clients in the golden age of jQuery",
+      "Delivered frontend solutions, bug fixes, and custom features across diverse projects",
     ],
   },
 ];
