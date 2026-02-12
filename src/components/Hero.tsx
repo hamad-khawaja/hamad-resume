@@ -52,7 +52,7 @@ export default function Hero() {
             View My Work ↓
           </a>
           <a
-            href="/hamad_resume.pdf"
+            href="/hamad_resume_ai.pdf"
             download
             className="rounded border border-terminal-green px-6 py-3 font-mono text-sm text-terminal-green transition-all hover:bg-terminal-green/10"
           >

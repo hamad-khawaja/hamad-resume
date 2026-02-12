@@ -46,7 +46,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/hamad_resume.pdf"
+            href="/hamad_resume_ai.pdf"
             download
             className="rounded border border-terminal-green px-4 py-2 font-mono text-sm text-terminal-green transition-all hover:bg-terminal-green/10"
           >
@@ -93,7 +93,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="/hamad_resume.pdf"
+              href="/hamad_resume_ai.pdf"
               download
               className="w-fit rounded border border-terminal-green px-4 py-2 font-mono text-sm text-terminal-green transition-all hover:bg-terminal-green/10"
             >
